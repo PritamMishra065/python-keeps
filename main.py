@@ -16,7 +16,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # Development
         "http://127.0.0.1:3000",  # Development
-        "https://python-keeps.vercel.app/login",  # Replace with your Vercel domain
+        "https://python-keeps.vercel.app",  # Replace with your Vercel domain
     ],
     allow_credentials=True,
     allow_methods=["*"],
